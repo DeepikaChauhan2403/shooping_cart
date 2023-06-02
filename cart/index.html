@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Cart</title>
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+
+    <nav>
+      <div class="brand">
+        <a href="../index.html">MeShop.</a>
+      </div>
+      <div class="nav-items">
+        <a href="../index.html">Home</a>
+        <a href="../login/index.html">Login</a>
+        <a href="../signup/index.html">Signup</a>
+        <a href="../shop/index.html">Shop</a>
+        <a href="../cart/index.html">My Cart</a>
+        <a href="../profile/index.html">Profile</a>
+      </div>
+    </nav>
+  </nav>
+
+  <div style="font-size: 30px; margin: 20px; text-align: center; font-weight: bold;">My Cart</div>
+
+  <div class="container">
+    <div class="items">
+      
+    </div>
+
+    <div style="padding: 2rem;" class="right">
+      <h2 style="text-align: center; font-weight: 400; margin-bottom: 20px;">Checkout List</h2>
+      <div style="display: flex; flex-direction: column; justify-content: space-between; height: 100%;">
+        <div class="list-container">
+
+          <!-- <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+            <div>1. Shirt</div>
+            <div>$100</div>
+          </div> -->
+  
+  
+  
+  
+  
+        </div>
+        <div style="display: flex; justify-content: space-between; padding: 10px 0; border-top:1px solid white; border-bottom:1px solid white;">
+          <div>Total</div>
+          <div id="total-price"></div>
+        </div>
+ 
+      </div>
+      <div style="display: flex; justify-content: center; margin-top: 20px;">
+        <button id="rzp-button1" style="height: 40px; padding: 10px; width: 100%; cursor: pointer;">Checkout</button>
+      </div>
+
+
+    </div>
+
+  </div>
+
+
+
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,82 @@
+/* Write styles here */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-image: url(./landingPagePic.png);
+    background-repeat: no-repeat;
+    background-position:top right;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+
+  .container{
+    width: 100%;
+    padding: 40px;
+    padding-bottom: 10px;
+    display: flex;
+  }
+
+  .container p{
+    margin-top: 10px;
+    font-size: 20px;
+  }
+
+  .buttons-container{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .buttons-container button{
+    color: white;
+    background-color: black;
+    width: 150px;
+    height: 40px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  .image img{
+    height: 80%;
+    width: 100%;
+  }

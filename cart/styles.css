@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Inter", sans-serif;
+    overflow-x: hidden;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul {
+    list-style: none;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+  
+    background-color: black;
+    border-bottom: 1px solid white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  nav .brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  nav .nav-items a {
+    margin: 0 1rem;
+  }
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  padding: 40px;
+  min-height: 400px;
+  gap:20px
+}
+
+.container .right{
+  color: white;
+  background-color: black;
+  min-width: 300px;
+  max-width: 400px;
+  height: 100%;
+  padding: 20px;
+}
+
+
+.items {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+}
+
+.items .item {
+  border: 1px solid black;
+  width: 230px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+
+.items .item img {
+  padding: 10px;
+  max-width: 100%;
+  height: 250px;
+}
+
+.items .item .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items .item .info {
+  padding: 1rem;
+}
+
+.items .item button {
+  width: 100%;
+  border-radius: none;
+  border: none;
+  padding: 1rem;
+  font-size: 1rem;
+  color: white;
+  background-color: black;
+  cursor: pointer;
+}
+
+.items .item .colors {
+  display: flex;
+  margin: 1rem 0;
+}
+
+.items .item .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  margin: 0 5px;
+}
+

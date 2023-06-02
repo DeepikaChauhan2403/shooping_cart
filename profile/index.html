@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Profile</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+   
+    <nav>
+      <div class="brand">
+        <a href="../index.html">MeShop.</a>
+      </div>
+      <div class="nav-items">
+        <a href="../index.html">Home</a>
+        <a href="../login/index.html">Login</a>
+        <a href="../signup/index.html">Signup</a>
+        <a href="../shop/index.html">Shop</a>
+        <a href="../cart/index.html">My Cart</a>
+        <a href="../profile/index.html">Profile</a>
+      </div>
+    </nav>
+
+    <div style="padding-bottom: 0;" class="container">
+      <div style="font-size: 30px; margin-bottom: 20px; text-align: center; font-weight: 600;">My Profile</div>
+      <form id="inputs" class="inputs">
+          <input type="text" placeholder="First Name" id="first-name">
+          <input type="text" placeholder="Last Name" id="last-name">
+  
+          <div>
+            <button type="submit" id="save-info">Save Info</button>
+            <span style="width: fit-content; margin-left: 20px;" id="message">asdsad</span>
+        </div>
+  
+      </form>
+  
+    </div>
+  
+    <div style="padding-top: 0px;" class="container">
+      <div style="font-size: 30px; margin-bottom: 20px; text-align: center; font-weight: 600;">Edit Password</div>
+      <form id="inputs2" class="inputs">
+          <input type="password" placeholder="Old Password" id="old-pass">
+          <input type="password" placeholder="New Password" id="new-pass">
+          <input type="password" placeholder="Confirm New Password" id="conf-new-pass">
+  
+        <div class="buttons">
+            <button type="submit" id="change-pass">Change Password</button>
+            <span style="width: fit-content; margin-left: 20px;" id="message2"></span>
+            <button id="logout">Logout</button>
+        </div>
+  
+  
+  
+  
+      </form>
+  
+    </div>
+
+    <script src="./script.js" async defer></script>
+  </body>
+</html>
